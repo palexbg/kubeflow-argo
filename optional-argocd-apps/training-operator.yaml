@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vmallya-123/kubeflow-argo.git
+    repoURL: https://github.com/palexbg/kubeflow-argo.git
     targetRevision: main
     path: apps/training-operator/upstream/overlays/kubeflow
   destination:
