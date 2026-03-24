@@ -634,7 +634,7 @@ spec:
             - name: METRICS_DOMAIN
               value: knative.dev/eventing
             - name: APISERVER_RA_IMAGE
-              value: gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:2fd38788ae96abd96e63bf8b7ef3e1b37370513a84a86cd153dfb1cd9442a095
+              value: gcr.io/knative-releases/knative.dev/eventing/cmd/apiserver_receive_adapter@sha256:2fd38788ae96abd96e63bf8b7ef3e1b37370513a84a86cd153dfb1cd9442.2.0
             - name: POD_NAME
               valueFrom:
                 fieldRef:

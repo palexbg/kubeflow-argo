@@ -9,5 +9,5 @@ resources:
 commonLabels:
   app: cache-deployer
 images:
-  - name: gcr.io/ml-pipeline/cache-deployer
+  - name: ghcr.io/kubeflow/cache-deployer
     newTag: 1.8.4
