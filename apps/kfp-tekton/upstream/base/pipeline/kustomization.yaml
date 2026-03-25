@@ -41,7 +41,7 @@ patchesStrategicMerge:
   - apiserver-deployment.yaml
   - metadata-writer-deployment.yaml
 images:
-  - name: ghcr.io/kubeflow/api-server
+  - name: ghcr.io/kubeflow/pipelines/api-server
     newName: docker.io/aipipeline/api-server
     newTag: 1.5.1
   - name: ghcr.io/kubeflow/persistenceagent
@@ -50,7 +50,7 @@ images:
   - name: ghcr.io/kubeflow/scheduledworkflow
     newName: docker.io/aipipeline/scheduledworkflow
     newTag: 1.5.1
-  - name: ghcr.io/kubeflow/kfp-frontend
+  - name: ghcr.io/kubeflow/pipelines/frontend
     newName: docker.io/aipipeline/frontend
     newTag: 1.5.1
   - name: ghcr.io/kubeflow/viewer-crd-controller
