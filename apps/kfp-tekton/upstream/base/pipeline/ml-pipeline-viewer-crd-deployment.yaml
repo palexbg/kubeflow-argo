@@ -16,7 +16,7 @@ spec:
         cluster-autoscaler.kubernetes.io/safe-to-evict: "true"
     spec:
       containers:
-      - image: ghcr.io/kubeflow/viewer-crd-controller:dummy
+      - image: gcr.io/ml-pipeline/viewer-crd-controller:dummy
         imagePullPolicy: Always
         name: ml-pipeline-viewer-crd
         env:

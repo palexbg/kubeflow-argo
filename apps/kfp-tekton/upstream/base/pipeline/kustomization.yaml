@@ -41,22 +41,22 @@ patchesStrategicMerge:
   - apiserver-deployment.yaml
   - metadata-writer-deployment.yaml
 images:
-  - name: ghcr.io/kubeflow/pipelines/api-server
+  - name: gcr.io/ml-pipeline/api-server
     newName: docker.io/aipipeline/api-server
     newTag: 1.5.1
-  - name: ghcr.io/kubeflow/persistenceagent
+  - name: gcr.io/ml-pipeline/persistenceagent
     newName: docker.io/aipipeline/persistenceagent
     newTag: 1.5.1
-  - name: ghcr.io/kubeflow/scheduledworkflow
+  - name: gcr.io/ml-pipeline/scheduledworkflow
     newName: docker.io/aipipeline/scheduledworkflow
     newTag: 1.5.1
-  - name: ghcr.io/kubeflow/pipelines/frontend
+  - name: gcr.io/ml-pipeline/frontend
     newName: docker.io/aipipeline/frontend
     newTag: 1.5.1
-  - name: ghcr.io/kubeflow/viewer-crd-controller
+  - name: gcr.io/ml-pipeline/viewer-crd-controller
     newTag: 1.8.4
-  - name: ghcr.io/kubeflow/visualization-server
+  - name: gcr.io/ml-pipeline/visualization-server
     newTag: 1.8.4
-  - name: ghcr.io/kubeflow/metadata-writer
+  - name: gcr.io/ml-pipeline/metadata-writer
     newName: docker.io/aipipeline/metadata-writer
     newTag: 1.5.1

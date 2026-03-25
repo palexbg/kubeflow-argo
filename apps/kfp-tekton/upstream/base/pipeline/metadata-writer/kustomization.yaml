@@ -6,5 +6,5 @@ resources:
   - metadata-writer-rolebinding.yaml
   - metadata-writer-sa.yaml
 images:
-  - name: ghcr.io/kubeflow/metadata-writer
+  - name: gcr.io/ml-pipeline/metadata-writer
     newTag: 1.8.4

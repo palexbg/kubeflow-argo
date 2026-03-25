@@ -9,6 +9,6 @@ resources:
 commonLabels:
   app: cache-server
 images:
-  - name: ghcr.io/kubeflow/cache-server
+  - name: gcr.io/ml-pipeline/cache-server
     newName: docker.io/aipipeline/cache-server
     newTag: 1.5.1

@@ -16,7 +16,7 @@ spec:
         cluster-autoscaler.kubernetes.io/safe-to-evict: "true"
     spec:
       containers:
-      - image: ghcr.io/kubeflow/scheduledworkflow:dummy
+      - image: gcr.io/ml-pipeline/scheduledworkflow:dummy
         imagePullPolicy: IfNotPresent
         name: ml-pipeline-scheduledworkflow
         env:
